@@ -2,8 +2,8 @@ import flet as ft
 from flet_app.controls.settings_container import Settings
 import asyncio
 from flet_app.controls.main_controls import Swapper
-from flet_app.controls.app_bar import _AppBar
-from flet_app.controls.nav_bar import _NavigationBar
+from flet_app.controls.app_bar import Appbar
+from flet_app.controls.nav_bar import Navigation
 from flet_app.utils.navigate import navigate
 from flet_app.controls.pool_table import PoolContainer
 from flet_app.controls.arbitage import ArbitrageContainer
@@ -25,8 +25,8 @@ async def MainView(page : ft.Page):
     async def init():
         settings_container = Settings()
         main_container = Swapper(page)
-        app_bar = _AppBar()
-        navigation_bar = _NavigationBar()
+        app_bar = Appbar(page)
+        navigation_bar = Navigation()
         pool_container = PoolContainer(page)
         arbitrage_container = ArbitrageContainer(page)
         return settings_container, main_container, app_bar, navigation_bar, pool_container, arbitrage_container

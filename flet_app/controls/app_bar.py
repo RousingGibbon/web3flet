@@ -2,11 +2,12 @@ import flet as ft
 from flet import AppBar
 
 
-class _AppBar(AppBar):
-    def __init__(self):
+class Appbar(AppBar):
+    def __init__(self, page):
         super().__init__()
         self.title = ft.Text("web3App")
-        self.theme_mode_button = ft.IconButton(ft.icons.SUNNY)
+        self.page = page
+        self.theme_mode_button = ft.IconButton(ft.icons.SUNNY, on_click=self.toggle_theme)
         self.change_scheme_button = ft.IconButton(ft.icons.COLORIZE, )
         self.theme_button = ft.Row(
             controls=[self.theme_mode_button, self.change_scheme_button],
@@ -18,7 +19,9 @@ class _AppBar(AppBar):
         self.leading = ft.IconButton(icon=ft.icons.QUESTION_MARK)
         self.visible = True
 
-
-
-
-        
+    def toggle_theme(self, e):
+        if self.page.theme_mode == ft.ThemeMode.LIGHT:
+            self.page.theme_mode = ft.ThemeMode.DARK
+        else:
+            self.page.theme_mode = ft.ThemeMode.LIGHT
+        self.page.update()

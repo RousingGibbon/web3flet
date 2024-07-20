@@ -2,7 +2,7 @@ import flet as ft
 from flet import NavigationBar
 
 
-class _NavigationBar(NavigationBar):
+class Navigation(NavigationBar):
     def __init__(self):
         super().__init__()
         self.destinations = [

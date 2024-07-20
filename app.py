@@ -79,6 +79,7 @@ async def main(page: ft.Page):
     page.adaptive = True
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
+    page.theme_mode = "DARK"
     page.update()
 
 if __name__ == '__main__':
