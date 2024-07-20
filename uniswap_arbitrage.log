@@ -3486,3 +3486,851 @@
 2024-07-20 05:31:42,330 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.001439608337816681
 2024-07-20 05:31:42,330 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 5.012500000000002, Amount1Out: 0.0
 2024-07-20 05:31:42,330 - uniswap_arbitrage - INFO - Calculated price: 0.0002872036584172929
+2024-07-20 05:32:36,099 - uniswap_arbitrage - INFO - Connection to Ethereum network success
+2024-07-20 05:32:36,406 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+2024-07-20 05:32:36,425 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+2024-07-20 05:32:38,387 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f
+2024-07-20 05:32:38,390 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:38,390 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:38,435 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:38,435 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:38,715 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+2024-07-20 05:32:39,000 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:39,000 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:39,000 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.048109746401
+2024-07-20 05:32:39,090 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:39,090 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:39,090 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.0002862829164046644
+2024-07-20 05:32:39,090 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:39,090 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:39,158 - uniswap_arbitrage - INFO - Gas price now - 2608631400 wei
+2024-07-20 05:32:39,158 - uniswap_arbitrage - INFO - Gas price now - 2.6086314 gwei
+2024-07-20 05:32:39,158 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:39,158 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:39,726 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:39,726 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:39,726 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.048109746401
+2024-07-20 05:32:39,726 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:39,726 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:39,768 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:39,768 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:39,768 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 9.112074980795109e-06
+2024-07-20 05:32:39,925 - uniswap_arbitrage - INFO - Current block id: 20344778
+2024-07-20 05:32:40,072 - uniswap_arbitrage - INFO - Chain id: 1
+2024-07-20 05:32:40,366 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:40,366 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:40,366 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.048109746401
+2024-07-20 05:32:40,798 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:40,798 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:41,003 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 17572.747116550716
+2024-07-20 05:32:41,003 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in USD: 3493.048109746401
+2024-07-20 05:32:41,003 - uniswap_arbitrage - INFO - Adjusted reserve 0xdAC17F958D2ee523a2206206994597C13D831ec7 = 61382451.098519
+2024-07-20 05:32:41,003 - uniswap_arbitrage - INFO - Liquidity in USD: 122764902.197038
+2024-07-20 05:32:41,004 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:41,004 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:41,451 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:32:41,451 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:32:41,451 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:32:41,643 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:32:41,644 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:32:41,644 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.0002863631612827865
+2024-07-20 05:32:41,793 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f
+2024-07-20 05:32:41,793 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:41,793 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:41,966 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+2024-07-20 05:32:41,966 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:41,966 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:42,455 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:32:42,456 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:32:42,457 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in USD Coin (USDC): 0.9977717510637826
+2024-07-20 05:32:42,457 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:42,458 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:42,620 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:32:42,620 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:32:42,620 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.069285450058
+2024-07-20 05:32:43,143 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:43,143 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:43,143 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.0002862829164046644
+2024-07-20 05:32:43,143 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:43,143 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:43,274 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:43,274 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:43,801 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.747116550716
+2024-07-20 05:32:43,801 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382451.098519
+2024-07-20 05:32:43,801 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.048109746401
+2024-07-20 05:32:43,801 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:43,801 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:43,918 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:32:43,918 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:32:43,918 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.069285450058
+2024-07-20 05:32:43,919 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:43,919 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:32:44,471 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:32:44,471 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:32:44,471 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.069285450058
+2024-07-20 05:32:44,471 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:32:44,471 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 14859.947779283582
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Adjusted reserve 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 = 51891967.223428
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 3492.069285450058
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Price of 1 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 in USD: 1.0022332251177104
+2024-07-20 05:32:44,558 - uniswap_arbitrage - INFO - Liquidity in USD: 103899820.89146677
+2024-07-20 05:32:44,879 - uniswap_arbitrage - INFO - Pair address for 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0xBb2b8038a1640196FbE3e38816F3e67Cba72D940
+2024-07-20 05:32:45,157 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:32:45,157 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:32:45,157 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.0002863631612827865
+2024-07-20 05:32:46,240 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:32:46,240 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 6
+2024-07-20 05:32:46,241 - uniswap_arbitrage - INFO - Swap details - Amount0In: 310.499467, Amount1In: 0.0
+2024-07-20 05:32:46,241 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 310.300244
+2024-07-20 05:32:46,241 - uniswap_arbitrage - INFO - Calculated price: 0.9993583789308084
+2024-07-20 05:32:47,382 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:32:47,382 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 6
+2024-07-20 05:32:47,382 - uniswap_arbitrage - INFO - Swap details - Amount0In: 310.499467, Amount1In: 0.0
+2024-07-20 05:32:47,382 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 310.300244
+2024-07-20 05:32:47,382 - uniswap_arbitrage - INFO - Calculated price: 1.0006420330110986
+2024-07-20 05:32:47,422 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:32:47,422 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:48,063 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:32:48,063 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:32:48,063 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Wrapped Ether (WETH): 19.0107068144785
+2024-07-20 05:32:48,404 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599: 0xBb2b8038a1640196FbE3e38816F3e67Cba72D940
+2024-07-20 05:32:48,405 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:48,408 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:32:49,129 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:32:49,143 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:32:49,149 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Wrapped BTC (WBTC): 0.0526019368852926
+2024-07-20 05:32:49,833 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:32:49,850 - uniswap_arbitrage - INFO - Yes click on window_destroy()
+2024-07-20 05:32:49,868 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:32:50,293 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:32:50,295 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:32:50,295 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.43178270582919026, Amount1In: 0.0
+2024-07-20 05:32:50,295 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 1503.75
+2024-07-20 05:32:50,295 - uniswap_arbitrage - INFO - Calculated price: 0.00028713729398449893
+2024-07-20 05:32:50,528 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:32:50,528 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:32:50,528 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Wrapped BTC (WBTC): 0.0526019368852926
+2024-07-20 05:32:50,850 - uniswap_arbitrage - INFO - Pair address for 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149
+2024-07-20 05:32:53,075 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:32:53,075 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:32:53,075 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.43178270582919026, Amount1In: 0.0
+2024-07-20 05:32:53,075 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 1503.75
+2024-07-20 05:32:53,076 - uniswap_arbitrage - INFO - Calculated price: 3482.654538264141
+2024-07-20 05:32:55,405 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:32:55,405 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:32:55,405 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.005382967672145844
+2024-07-20 05:32:55,405 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 18.741309, Amount1Out: 0.0
+2024-07-20 05:32:55,405 - uniswap_arbitrage - INFO - Calculated price: 3481.594195145713
+2024-07-20 05:32:57,731 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:32:57,732 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:32:57,732 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.005382967672145844
+2024-07-20 05:32:57,732 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 18.741309, Amount1Out: 0.0
+2024-07-20 05:32:57,732 - uniswap_arbitrage - INFO - Calculated price: 0.0002872247435942625
+2024-07-20 05:33:10,073 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:10,073 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:17,716 - uniswap_arbitrage - INFO - Connection to Ethereum network success
+2024-07-20 05:33:17,884 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+2024-07-20 05:33:18,042 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+2024-07-20 05:33:19,739 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f
+2024-07-20 05:33:19,885 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:19,885 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:20,054 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+2024-07-20 05:33:20,080 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:20,080 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:20,547 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:20,548 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:20,548 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.000286286556720269
+2024-07-20 05:33:20,548 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:20,548 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:20,733 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:20,734 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:20,734 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.0036934186232
+2024-07-20 05:33:20,902 - uniswap_arbitrage - INFO - Gas price now - 2736017623 wei
+2024-07-20 05:33:20,902 - uniswap_arbitrage - INFO - Gas price now - 2.736017623 gwei
+2024-07-20 05:33:20,902 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:20,902 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:21,207 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:21,216 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:21,216 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.0036934186232
+2024-07-20 05:33:21,216 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:21,216 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:21,572 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:21,572 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:21,572 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 9.556919662397443e-06
+2024-07-20 05:33:21,746 - uniswap_arbitrage - INFO - Current block id: 20344781
+2024-07-20 05:33:21,876 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:21,876 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:21,876 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.0036934186232
+2024-07-20 05:33:21,904 - uniswap_arbitrage - INFO - Chain id: 1
+2024-07-20 05:33:22,130 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:22,130 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:22,534 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 17572.859009782784
+2024-07-20 05:33:22,535 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in USD: 3493.0036934186232
+2024-07-20 05:33:22,535 - uniswap_arbitrage - INFO - Adjusted reserve 0xdAC17F958D2ee523a2206206994597C13D831ec7 = 61382061.425096
+2024-07-20 05:33:22,535 - uniswap_arbitrage - INFO - Liquidity in USD: 122764122.85019198
+2024-07-20 05:33:22,535 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:22,535 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:22,762 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:22,762 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:22,763 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:33:23,076 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f
+2024-07-20 05:33:23,076 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:23,076 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:23,234 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:33:23,234 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:33:23,235 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.0002863631612827865
+2024-07-20 05:33:23,566 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+2024-07-20 05:33:23,566 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:23,566 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:23,712 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:23,712 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:23,712 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in USD Coin (USDC): 0.9977717510637826
+2024-07-20 05:33:23,712 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:23,712 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:24,223 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:33:24,223 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:33:24,223 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.069285450058
+2024-07-20 05:33:24,347 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:24,347 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:24,347 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.000286286556720269
+2024-07-20 05:33:24,347 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:24,347 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:24,996 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:24,996 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:24,997 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:24,997 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:24,999 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.0036934186232
+2024-07-20 05:33:24,999 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:24,999 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:25,634 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:33:25,634 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:33:25,635 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.069285450058
+2024-07-20 05:33:25,635 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:25,635 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:25,659 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:33:25,659 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:33:25,659 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.069285450058
+2024-07-20 05:33:25,659 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:25,659 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:26,282 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51891967.223428
+2024-07-20 05:33:26,282 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.947779283584
+2024-07-20 05:33:26,282 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.0002863631612827865
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 14859.947779283582
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Adjusted reserve 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 = 51891967.223428
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 3492.069285450058
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Price of 1 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 in USD: 1.0022332251177104
+2024-07-20 05:33:26,333 - uniswap_arbitrage - INFO - Liquidity in USD: 103899820.89146677
+2024-07-20 05:33:26,687 - uniswap_arbitrage - INFO - Pair address for 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0xBb2b8038a1640196FbE3e38816F3e67Cba72D940
+2024-07-20 05:33:27,383 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:27,383 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 6
+2024-07-20 05:33:27,383 - uniswap_arbitrage - INFO - Swap details - Amount0In: 310.499467, Amount1In: 0.0
+2024-07-20 05:33:27,383 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 310.300244
+2024-07-20 05:33:27,383 - uniswap_arbitrage - INFO - Calculated price: 0.9993583789308084
+2024-07-20 05:33:28,396 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:28,396 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 6
+2024-07-20 05:33:28,396 - uniswap_arbitrage - INFO - Swap details - Amount0In: 310.499467, Amount1In: 0.0
+2024-07-20 05:33:28,396 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 310.300244
+2024-07-20 05:33:28,397 - uniswap_arbitrage - INFO - Calculated price: 1.0006420330110986
+2024-07-20 05:33:29,367 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:29,404 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:30,156 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:33:30,161 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:33:30,165 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Wrapped Ether (WETH): 19.0107068144785
+2024-07-20 05:33:30,524 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599: 0xBb2b8038a1640196FbE3e38816F3e67Cba72D940
+2024-07-20 05:33:30,526 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:30,526 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:30,909 - uniswap_arbitrage - INFO - New page size: 1280.0, 786.0
+2024-07-20 05:33:31,214 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:33:31,214 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:33:31,214 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Wrapped BTC (WBTC): 0.0526019368852926
+2024-07-20 05:33:31,272 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:31,272 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:33:31,272 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.11189323206898093, Amount1In: 0.0
+2024-07-20 05:33:31,272 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 389.673423
+2024-07-20 05:33:31,272 - uniswap_arbitrage - INFO - Calculated price: 0.000287146172832477
+2024-07-20 05:33:31,872 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:31,872 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:32,569 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:33:32,574 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:33:32,578 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Wrapped BTC (WBTC): 0.0526019368852926
+2024-07-20 05:33:32,951 - uniswap_arbitrage - INFO - Pair address for 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149
+2024-07-20 05:33:34,016 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:34,016 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:33:34,016 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.11189323206898093, Amount1In: 0.0
+2024-07-20 05:33:34,016 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 389.673423
+2024-07-20 05:33:34,016 - uniswap_arbitrage - INFO - Calculated price: 3482.5468510889978
+2024-07-20 05:33:34,178 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:34,178 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:34,865 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:34,868 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:34,881 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Tether USD (USDT): 67568.31787336025
+2024-07-20 05:33:34,885 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 1972.500535983312
+2024-07-20 05:33:34,890 - uniswap_arbitrage - INFO - Adjusted reserve 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 = 103.7573487
+2024-07-20 05:33:34,893 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599: 0.0526019368852926
+2024-07-20 05:33:34,945 - uniswap_arbitrage - INFO - Price of 1 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 in USD: 67568.31787336025
+2024-07-20 05:33:34,947 - uniswap_arbitrage - INFO - Liquidity in USD: 7010813.276007382
+2024-07-20 05:33:35,428 - uniswap_arbitrage - INFO - Pair address for 0x6B175474E89094C44Da98b954EedeAC495271d0F and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11
+2024-07-20 05:33:36,415 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:33:36,415 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:33:36,415 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.005382967672145844
+2024-07-20 05:33:36,415 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 18.741309, Amount1Out: 0.0
+2024-07-20 05:33:36,415 - uniswap_arbitrage - INFO - Calculated price: 3481.594195145713
+2024-07-20 05:33:37,640 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:37,645 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:38,373 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:33:38,373 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:33:38,373 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Wrapped Ether (WETH): 0.0002863422385823567
+2024-07-20 05:33:38,702 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0x6B175474E89094C44Da98b954EedeAC495271d0F: 0xA478c2975Ab1Ea89e8196811F51A7B7Ade33eB11
+2024-07-20 05:33:38,702 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:38,702 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:38,763 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:33:38,763 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:33:38,763 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.005382967672145844
+2024-07-20 05:33:38,763 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 18.741309, Amount1Out: 0.0
+2024-07-20 05:33:38,763 - uniswap_arbitrage - INFO - Calculated price: 0.0002872247435942625
+2024-07-20 05:33:39,082 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599: 0x0DE0Fa91b6DbaB8c8503aAA2D1DFa91a192cB149
+2024-07-20 05:33:39,082 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:39,082 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:39,363 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:33:39,363 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:33:39,363 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Dai Stablecoin (DAI): 3492.324446965528
+2024-07-20 05:33:39,712 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:39,712 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:39,712 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped BTC (WBTC): 1.4799835654844146e-05
+2024-07-20 05:33:39,712 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:39,712 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:40,023 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:40,025 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:40,344 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:40,344 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:40,344 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Tether USD (USDT): 67568.31787336025
+2024-07-20 05:33:40,344 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:40,344 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:40,684 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:33:40,684 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:33:40,684 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Dai Stablecoin (DAI): 3492.324446965528
+2024-07-20 05:33:40,988 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:33:40,988 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:33:40,988 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Wrapped Ether (WETH): 19.0107068144785
+2024-07-20 05:33:40,988 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:40,988 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:41,014 - uniswap_arbitrage - INFO - Pair address for 0x6B175474E89094C44Da98b954EedeAC495271d0F and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405
+2024-07-20 05:33:41,619 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:33:41,619 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:33:41,619 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Wrapped BTC (WBTC): 0.0526019368852926
+2024-07-20 05:33:41,619 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:41,619 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:42,260 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:42,260 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:42,260 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.0036934186232
+2024-07-20 05:33:42,260 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:42,260 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:42,890 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382061.425096
+2024-07-20 05:33:42,890 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.859009782784
+2024-07-20 05:33:42,890 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.000286286556720269
+2024-07-20 05:33:43,861 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:43,861 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 6
+2024-07-20 05:33:43,862 - uniswap_arbitrage - INFO - Swap details - Amount0In: 7.575e-05, Amount1In: 0.0
+2024-07-20 05:33:43,862 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 5.129806
+2024-07-20 05:33:43,862 - uniswap_arbitrage - INFO - Calculated price: 1.4766640297898204e-05
+2024-07-20 05:33:44,060 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:44,060 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Tether USD (USDT): 1.0031928163506472
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 2156.6390771124343
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Adjusted reserve 0x6B175474E89094C44Da98b954EedeAC495271d0F = 7531683.372280927
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in 0x6B175474E89094C44Da98b954EedeAC495271d0F: 3492.324446965528
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Price of 1 0x6B175474E89094C44Da98b954EedeAC495271d0F in USD: 1.0031928163506472
+2024-07-20 05:33:44,723 - uniswap_arbitrage - INFO - Liquidity in USD: 15087414.026380772
+2024-07-20 05:33:44,724 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:44,724 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:44,850 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:44,850 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 6
+2024-07-20 05:33:44,850 - uniswap_arbitrage - INFO - Swap details - Amount0In: 7.575e-05, Amount1In: 0.0
+2024-07-20 05:33:44,850 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 5.129806
+2024-07-20 05:33:44,850 - uniswap_arbitrage - INFO - Calculated price: 67720.21122112212
+2024-07-20 05:33:45,452 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:45,452 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:45,452 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:33:45,452 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:45,452 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:45,915 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:33:45,915 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 18
+2024-07-20 05:33:45,915 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.004998260999904844
+2024-07-20 05:33:45,916 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.00026213, Amount1Out: 0.0
+2024-07-20 05:33:45,916 - uniswap_arbitrage - INFO - Calculated price: 19.067870903387035
+2024-07-20 05:33:46,111 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:46,111 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:46,111 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in USD Coin (USDC): 0.9977717510637826
+2024-07-20 05:33:46,111 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:46,111 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:46,802 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:46,802 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:46,802 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:33:46,960 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:33:46,960 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 18
+2024-07-20 05:33:46,960 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.004998260999904844
+2024-07-20 05:33:46,960 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.00026213, Amount1Out: 0.0
+2024-07-20 05:33:46,960 - uniswap_arbitrage - INFO - Calculated price: 0.05244424010770754
+2024-07-20 05:33:47,462 - uniswap_arbitrage - INFO - Adjusted reserve 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 = 2353329.096257
+2024-07-20 05:33:47,462 - uniswap_arbitrage - INFO - Price of 1 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 in USD: 1.0022332251177104
+2024-07-20 05:33:47,462 - uniswap_arbitrage - INFO - Adjusted reserve 0xdAC17F958D2ee523a2206206994597C13D831ec7 = 2358584.609905
+2024-07-20 05:33:47,462 - uniswap_arbitrage - INFO - Liquidity in USD: 4717169.21981
+2024-07-20 05:33:47,464 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:47,464 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:48,198 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:48,206 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:48,213 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped BTC (WBTC): 1.4799835654844146e-05
+2024-07-20 05:33:48,225 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:48,226 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:48,982 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:48,984 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:48,984 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Tether USD (USDT): 67568.31787336025
+2024-07-20 05:33:48,989 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:48,994 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:49,689 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:49,689 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:49,689 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Tether USD (USDT): 67568.31787336025
+2024-07-20 05:33:49,756 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:49,756 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:33:49,756 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.11189323206898093, Amount1In: 0.0
+2024-07-20 05:33:49,756 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 389.673423
+2024-07-20 05:33:49,756 - uniswap_arbitrage - INFO - Calculated price: 3482.5468510889978
+2024-07-20 05:33:50,348 - uniswap_arbitrage - INFO - Adjusted reserve 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 = 0.01446639
+2024-07-20 05:33:50,348 - uniswap_arbitrage - INFO - Price of 1 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 in USD: 67568.31787336025
+2024-07-20 05:33:50,348 - uniswap_arbitrage - INFO - Adjusted reserve 0xdAC17F958D2ee523a2206206994597C13D831ec7 = 977.469638
+2024-07-20 05:33:50,349 - uniswap_arbitrage - INFO - Liquidity in USD: 1954.939276
+2024-07-20 05:33:50,350 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:50,350 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:51,101 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:33:51,104 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:33:51,107 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Tether USD (USDT): 1.0031928163506472
+2024-07-20 05:33:51,476 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0x6B175474E89094C44Da98b954EedeAC495271d0F: 0xB20bd5D04BE54f870D5C0d3cA85d82b34B836405
+2024-07-20 05:33:51,483 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:51,483 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:51,907 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:51,907 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:52,177 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:33:52,177 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:33:52,177 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Dai Stablecoin (DAI): 0.996817345281377
+2024-07-20 05:33:52,177 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:52,177 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:52,513 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:52,513 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:33:52,513 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 90.096741
+2024-07-20 05:33:52,514 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.02571606766248091, Amount1Out: 0.0
+2024-07-20 05:33:52,514 - uniswap_arbitrage - INFO - Calculated price: 0.0002854272793560969
+2024-07-20 05:33:52,519 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:52,519 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:52,565 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.83329371512
+2024-07-20 05:33:52,565 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382151.521837
+2024-07-20 05:33:52,565 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.013932123864
+2024-07-20 05:33:52,741 - uniswap_arbitrage - INFO - Gas price now - 2643050345 wei
+2024-07-20 05:33:52,741 - uniswap_arbitrage - INFO - Gas price now - 2.643050345 gwei
+2024-07-20 05:33:52,741 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:52,741 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:52,853 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:33:52,853 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:33:52,853 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Tether USD (USDT): 1.0031928163506472
+2024-07-20 05:33:53,075 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:53,075 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:53,148 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:33:53,148 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:33:53,148 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Tether USD (USDT): 1.0031928163506472
+2024-07-20 05:33:53,148 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:53,148 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:53,398 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.83329371512
+2024-07-20 05:33:53,398 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382151.521837
+2024-07-20 05:33:53,398 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 9.232211678389785e-06
+2024-07-20 05:33:53,520 - uniswap_arbitrage - INFO - Adjusted reserve 0x6B175474E89094C44Da98b954EedeAC495271d0F = 17229.415798526366
+2024-07-20 05:33:53,520 - uniswap_arbitrage - INFO - Price of 1 0x6B175474E89094C44Da98b954EedeAC495271d0F in USD: 1.0031928163506472
+2024-07-20 05:33:53,520 - uniswap_arbitrage - INFO - Adjusted reserve 0xdAC17F958D2ee523a2206206994597C13D831ec7 = 17284.426159
+2024-07-20 05:33:53,520 - uniswap_arbitrage - INFO - Liquidity in USD: 34568.852318
+2024-07-20 05:33:53,570 - uniswap_arbitrage - INFO - Current block id: 20344784
+2024-07-20 05:33:53,728 - uniswap_arbitrage - INFO - Chain id: 1
+2024-07-20 05:33:53,773 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:33:53,773 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:33:53,773 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Dai Stablecoin (DAI): 0.996817345281377
+2024-07-20 05:33:53,773 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:53,773 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:53,858 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599: 0x004375Dff511095CC5A197A54140a24eFEF3A416
+2024-07-20 05:33:54,411 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382151.521837
+2024-07-20 05:33:54,411 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.83329371512
+2024-07-20 05:33:54,411 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.0002862857175585235
+2024-07-20 05:33:54,412 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:54,412 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:55,062 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.83329371512
+2024-07-20 05:33:55,062 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382151.521837
+2024-07-20 05:33:55,062 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.013932123864
+2024-07-20 05:33:55,062 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:55,062 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:55,689 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:33:55,689 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:33:55,689 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Dai Stablecoin (DAI): 3492.324446965528
+2024-07-20 05:33:55,689 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:33:55,689 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:33:56,114 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:56,115 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:56,145 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:56,145 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:56,145 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Tether USD (USDT): 67568.31787336025
+2024-07-20 05:33:56,145 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:56,145 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:56,316 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:33:56,316 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:33:56,316 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Wrapped Ether (WETH): 0.0002863422385823567
+2024-07-20 05:33:56,754 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:33:56,754 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:33:56,754 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped BTC (WBTC): 1.4799835654844146e-05
+2024-07-20 05:33:56,771 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 71057.545665
+2024-07-20 05:33:56,771 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 1.06992529
+2024-07-20 05:33:56,771 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped BTC (WBTC): 1.5057166413320139e-05
+2024-07-20 05:33:57,102 - uniswap_arbitrage - INFO - Pair address for 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0x004375Dff511095CC5A197A54140a24eFEF3A416
+2024-07-20 05:33:57,102 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:57,102 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:57,285 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:57,285 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:33:57,285 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 10.0
+2024-07-20 05:33:57,285 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 9.944022101238465, Amount1Out: 0.0
+2024-07-20 05:33:57,285 - uniswap_arbitrage - INFO - Calculated price: 1.00562930152323
+2024-07-20 05:33:57,767 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 1.06992529
+2024-07-20 05:33:57,767 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 71057.545665
+2024-07-20 05:33:57,767 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in USD Coin (USDC): 66413.5583382649
+2024-07-20 05:33:58,256 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:33:58,256 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:33:58,256 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 10.0
+2024-07-20 05:33:58,256 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 9.944022101238465, Amount1Out: 0.0
+2024-07-20 05:33:58,256 - uniswap_arbitrage - INFO - Calculated price: 0.9944022101238466
+2024-07-20 05:33:58,431 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:33:58,431 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:59,127 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 1.06992529
+2024-07-20 05:33:59,129 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 71057.545665
+2024-07-20 05:33:59,131 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in USD Coin (USDC): 66413.5583382649
+2024-07-20 05:33:59,131 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:33:59,133 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:33:59,882 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353329.096257
+2024-07-20 05:33:59,891 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358584.609905
+2024-07-20 05:33:59,897 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0022332251177104
+2024-07-20 05:33:59,905 - uniswap_arbitrage - INFO - Adjusted reserve 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 = 1.06992529
+2024-07-20 05:33:59,908 - uniswap_arbitrage - INFO - Adjusted reserve 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 = 71057.545665
+2024-07-20 05:33:59,910 - uniswap_arbitrage - INFO - Price of 1 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 in 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 66413.5583382649
+2024-07-20 05:33:59,920 - uniswap_arbitrage - INFO - Price of 1 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 in USD: 1.0022332251177104
+2024-07-20 05:33:59,922 - uniswap_arbitrage - INFO - Liquidity in USD: 142273.77882578195
+2024-07-20 05:34:00,461 - uniswap_arbitrage - INFO - Pair address for 0x6B175474E89094C44Da98b954EedeAC495271d0F and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5
+2024-07-20 05:34:00,970 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:34:00,970 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:34:00,970 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 90.096741
+2024-07-20 05:34:00,970 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.02571606766248091, Amount1Out: 0.0
+2024-07-20 05:34:00,970 - uniswap_arbitrage - INFO - Calculated price: 0.0002854272793560969
+2024-07-20 05:34:01,183 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:01,184 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:01,911 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 742061.1324464149
+2024-07-20 05:34:01,916 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 742787.760252
+2024-07-20 05:34:01,920 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in USD Coin (USDC): 1.0009792020816257
+2024-07-20 05:34:02,286 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0x6B175474E89094C44Da98b954EedeAC495271d0F: 0xAE461cA67B15dc8dc81CE7615e0320dA1A9aB8D5
+2024-07-20 05:34:02,289 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:02,293 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:03,098 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 742787.760252
+2024-07-20 05:34:03,098 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 742061.1324464149
+2024-07-20 05:34:03,098 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Dai Stablecoin (DAI): 0.9990217558171145
+2024-07-20 05:34:03,674 - uniswap_arbitrage - INFO - Token0: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2, Token1: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+2024-07-20 05:34:03,674 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:34:03,674 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 90.096741
+2024-07-20 05:34:03,674 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.02571606766248091, Amount1Out: 0.0
+2024-07-20 05:34:03,674 - uniswap_arbitrage - INFO - Calculated price: 3503.519363166432
+2024-07-20 05:34:03,769 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:03,769 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:04,432 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 742787.760252
+2024-07-20 05:34:04,432 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 742061.1324464149
+2024-07-20 05:34:04,432 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Dai Stablecoin (DAI): 0.9990217558171145
+2024-07-20 05:34:04,433 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:04,433 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:34:04,816 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:04,831 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 18
+2024-07-20 05:34:04,831 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.001439608337816681
+2024-07-20 05:34:04,831 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 5.012500000000002, Amount1Out: 0.0
+2024-07-20 05:34:04,831 - uniswap_arbitrage - INFO - Calculated price: 3481.849797842926
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Tether USD (USDT): 1.0031928163506472
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Adjusted reserve 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 = 742787.760252
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Adjusted reserve 0x6B175474E89094C44Da98b954EedeAC495271d0F = 742061.1324464149
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Price of 1 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 in 0x6B175474E89094C44Da98b954EedeAC495271d0F: 0.9990217558171145
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Price of 1 0x6B175474E89094C44Da98b954EedeAC495271d0F in USD: 1.0031928163506472
+2024-07-20 05:34:05,095 - uniswap_arbitrage - INFO - Liquidity in USD: 1486491.5298096845
+2024-07-20 05:34:05,448 - uniswap_arbitrage - INFO - Pair address for 0x6B175474E89094C44Da98b954EedeAC495271d0F and 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599: 0x231B7589426Ffe1b75405526fC32aC09D44364c4
+2024-07-20 05:34:05,912 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:05,912 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 18
+2024-07-20 05:34:05,912 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.001439608337816681
+2024-07-20 05:34:05,912 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 5.012500000000002, Amount1Out: 0.0
+2024-07-20 05:34:05,912 - uniswap_arbitrage - INFO - Calculated price: 0.0002872036584172929
+2024-07-20 05:34:05,918 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:05,918 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:06,167 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:06,167 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:06,544 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 71057.545665
+2024-07-20 05:34:06,544 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 1.06992529
+2024-07-20 05:34:06,544 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped BTC (WBTC): 1.5057166413320139e-05
+2024-07-20 05:34:06,544 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:06,544 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:06,820 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 8322.643392201286
+2024-07-20 05:34:06,820 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.12550234
+2024-07-20 05:34:06,820 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Wrapped BTC (WBTC): 1.50796248362151e-05
+2024-07-20 05:34:07,150 - uniswap_arbitrage - INFO - Pair address for 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 and 0x6B175474E89094C44Da98b954EedeAC495271d0F: 0x231B7589426Ffe1b75405526fC32aC09D44364c4
+2024-07-20 05:34:07,150 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:07,150 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:07,172 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 1.06992529
+2024-07-20 05:34:07,172 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 71057.545665
+2024-07-20 05:34:07,172 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in USD Coin (USDC): 66413.5583382649
+2024-07-20 05:34:07,172 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:07,172 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:07,802 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:34:07,802 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:34:07,802 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Wrapped Ether (WETH): 19.0107068144785
+2024-07-20 05:34:07,802 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:07,802 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:07,814 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.12550234
+2024-07-20 05:34:07,814 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 8322.643392201286
+2024-07-20 05:34:07,814 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Dai Stablecoin (DAI): 66314.64713886041
+2024-07-20 05:34:08,426 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 1972.500535983312
+2024-07-20 05:34:08,426 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 103.7573487
+2024-07-20 05:34:08,426 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Wrapped BTC (WBTC): 0.0526019368852926
+2024-07-20 05:34:08,426 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:08,426 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:08,477 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:08,477 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:09,056 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.919054945462
+2024-07-20 05:34:09,056 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51892067.832829
+2024-07-20 05:34:09,056 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.0828061683846
+2024-07-20 05:34:09,056 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:09,056 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:09,144 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.12550234
+2024-07-20 05:34:09,144 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 8322.643392201286
+2024-07-20 05:34:09,144 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Dai Stablecoin (DAI): 66314.64713886041
+2024-07-20 05:34:09,144 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:09,144 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:34:09,700 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51892067.832829
+2024-07-20 05:34:09,700 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.919054945462
+2024-07-20 05:34:09,701 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.00028636205253598475
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 17229.415798526366
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 17284.426159
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Tether USD (USDT): 1.0031928163506472
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Adjusted reserve 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 = 0.12550234
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Adjusted reserve 0x6B175474E89094C44Da98b954EedeAC495271d0F = 8322.643392201286
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Price of 1 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 in 0x6B175474E89094C44Da98b954EedeAC495271d0F: 66314.64713886041
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Price of 1 0x6B175474E89094C44Da98b954EedeAC495271d0F in USD: 1.0031928163506472
+2024-07-20 05:34:09,799 - uniswap_arbitrage - INFO - Liquidity in USD: 16671.8594563058
+2024-07-20 05:34:10,722 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+2024-07-20 05:34:10,722 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 6
+2024-07-20 05:34:10,722 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0013466, Amount1In: 0.0
+2024-07-20 05:34:10,722 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 89.276562
+2024-07-20 05:34:10,722 - uniswap_arbitrage - INFO - Calculated price: 1.5083466139746736e-05
+2024-07-20 05:34:11,722 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+2024-07-20 05:34:11,722 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 6
+2024-07-20 05:34:11,722 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0013466, Amount1In: 0.0
+2024-07-20 05:34:11,722 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 89.276562
+2024-07-20 05:34:11,722 - uniswap_arbitrage - INFO - Calculated price: 66297.75879994058
+2024-07-20 05:34:12,759 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:12,759 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 18
+2024-07-20 05:34:12,759 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.004998260999904844
+2024-07-20 05:34:12,759 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.00026213, Amount1Out: 0.0
+2024-07-20 05:34:12,759 - uniswap_arbitrage - INFO - Calculated price: 19.067870903387035
+2024-07-20 05:34:13,809 - uniswap_arbitrage - INFO - Token0: 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:13,809 - uniswap_arbitrage - INFO - Decimals for Token0: 8, Decimals for Token1: 18
+2024-07-20 05:34:13,809 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.004998260999904844
+2024-07-20 05:34:13,809 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.00026213, Amount1Out: 0.0
+2024-07-20 05:34:13,809 - uniswap_arbitrage - INFO - Calculated price: 0.05244424010770754
+2024-07-20 05:34:16,100 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:16,100 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:34:16,100 - uniswap_arbitrage - INFO - Swap details - Amount0In: 100.609401, Amount1In: 0.0
+2024-07-20 05:34:16,100 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 0.028724338122385066
+2024-07-20 05:34:16,100 - uniswap_arbitrage - INFO - Calculated price: 3502.5837870079395
+2024-07-20 05:34:18,314 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:18,314 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:34:18,314 - uniswap_arbitrage - INFO - Swap details - Amount0In: 100.609401, Amount1In: 0.0
+2024-07-20 05:34:18,314 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 0.028724338122385066
+2024-07-20 05:34:18,314 - uniswap_arbitrage - INFO - Calculated price: 0.0002855035199184325
+2024-07-20 05:34:18,324 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:18,324 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:18,949 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 742061.1324464149
+2024-07-20 05:34:18,949 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 742787.760252
+2024-07-20 05:34:18,949 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in USD Coin (USDC): 1.0009792020816257
+2024-07-20 05:34:18,949 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:18,949 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:19,100 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:19,100 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:34:19,584 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 742787.760252
+2024-07-20 05:34:19,584 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 742061.1324464149
+2024-07-20 05:34:19,584 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Dai Stablecoin (DAI): 0.9990217558171145
+2024-07-20 05:34:19,584 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:19,584 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:20,247 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51892067.832829
+2024-07-20 05:34:20,248 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.919054945462
+2024-07-20 05:34:20,248 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.00028636205253598475
+2024-07-20 05:34:20,248 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:20,248 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 05:34:20,879 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14859.919054945462
+2024-07-20 05:34:20,879 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51892067.832829
+2024-07-20 05:34:20,879 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3492.0828061683846
+2024-07-20 05:34:20,880 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:20,880 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:21,510 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:34:21,511 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:34:21,511 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Dai Stablecoin (DAI): 3492.324446965528
+2024-07-20 05:34:21,511 - uniswap_arbitrage - INFO - Decimals for Dai Stablecoin (DAI): 18
+2024-07-20 05:34:21,511 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:22,141 - uniswap_arbitrage - INFO - Adjusted reserve Dai Stablecoin = 7531683.372280928
+2024-07-20 05:34:22,141 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 2156.6390771124343
+2024-07-20 05:34:22,141 - uniswap_arbitrage - INFO - Price of 1 Dai Stablecoin (DAI) in Wrapped Ether (WETH): 0.0002863422385823567
+2024-07-20 05:34:22,215 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:34:22,215 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:34:22,215 - uniswap_arbitrage - INFO - Price of 1 Wrapped BTC (WBTC) in Tether USD (USDT): 67568.31787336025
+2024-07-20 05:34:22,215 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:34:22,215 - uniswap_arbitrage - INFO - Decimals for Wrapped BTC (WBTC): 8
+2024-07-20 05:34:22,856 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 977.469638
+2024-07-20 05:34:22,856 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped BTC = 0.01446639
+2024-07-20 05:34:22,856 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped BTC (WBTC): 1.4799835654844146e-05
+2024-07-20 05:34:23,117 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+2024-07-20 05:34:23,117 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:34:23,117 - uniswap_arbitrage - INFO - Swap details - Amount0In: 362.67041740460314, Amount1In: 0.0
+2024-07-20 05:34:23,117 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 362.113445
+2024-07-20 05:34:23,117 - uniswap_arbitrage - INFO - Calculated price: 0.9984642463849436
+2024-07-20 05:34:23,743 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:23,743 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:34:24,095 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+2024-07-20 05:34:24,096 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 6
+2024-07-20 05:34:24,096 - uniswap_arbitrage - INFO - Swap details - Amount0In: 362.67041740460314, Amount1In: 0.0
+2024-07-20 05:34:24,096 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 362.113445
+2024-07-20 05:34:24,096 - uniswap_arbitrage - INFO - Calculated price: 1.001538115781929
+2024-07-20 05:34:24,411 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.83329371512
+2024-07-20 05:34:24,411 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382151.521837
+2024-07-20 05:34:24,411 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3493.013932123864
+2024-07-20 05:34:24,576 - uniswap_arbitrage - INFO - Gas price now - 2727864886 wei
+2024-07-20 05:34:24,576 - uniswap_arbitrage - INFO - Gas price now - 2.727864886 gwei
+2024-07-20 05:34:24,576 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 05:34:24,576 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 05:34:25,343 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17572.83329371512
+2024-07-20 05:34:25,346 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61382151.521837
+2024-07-20 05:34:25,347 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 9.528470051749476e-06
+2024-07-20 05:34:25,581 - uniswap_arbitrage - INFO - Current block id: 20344787
+2024-07-20 05:34:25,775 - uniswap_arbitrage - INFO - Chain id: 1
+2024-07-20 05:34:26,396 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:26,396 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:34:26,396 - uniswap_arbitrage - INFO - Swap details - Amount0In: 700.0, Amount1In: 0.0
+2024-07-20 05:34:26,396 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 0.19984938867664903
+2024-07-20 05:34:26,396 - uniswap_arbitrage - INFO - Calculated price: 0.0002854991266809272
+2024-07-20 05:34:28,695 - uniswap_arbitrage - INFO - Token0: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:28,695 - uniswap_arbitrage - INFO - Decimals for Token0: 6, Decimals for Token1: 18
+2024-07-20 05:34:28,695 - uniswap_arbitrage - INFO - Swap details - Amount0In: 700.0, Amount1In: 0.0
+2024-07-20 05:34:28,695 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 0.0, Amount1Out: 0.19984938867664903
+2024-07-20 05:34:28,696 - uniswap_arbitrage - INFO - Calculated price: 3502.637684484396
+2024-07-20 05:34:28,782 - uniswap_arbitrage - INFO - Yes click on window_destroy()
+2024-07-20 05:34:29,840 - uniswap_arbitrage - INFO - Token0: 0x6B175474E89094C44Da98b954EedeAC495271d0F, Token1: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+2024-07-20 05:34:29,840 - uniswap_arbitrage - INFO - Decimals for Token0: 18, Decimals for Token1: 18
+2024-07-20 05:34:29,840 - uniswap_arbitrage - INFO - Swap details - Amount0In: 0.0, Amount1In: 0.001439608337816681
+2024-07-20 05:34:29,840 - uniswap_arbitrage - INFO - Swap details - Amount0Out: 5.012500000000002, Amount1Out: 0.0
+2024-07-20 05:34:29,840 - uniswap_arbitrage - INFO - Calculated price: 3481.849797842926
+2024-07-20 06:20:45,596 - uniswap_arbitrage - INFO - Connection to Ethereum network success
+2024-07-20 06:20:45,744 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+2024-07-20 06:20:45,893 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852
+2024-07-20 06:20:47,386 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0xdAC17F958D2ee523a2206206994597C13D831ec7: 0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f
+2024-07-20 06:20:47,677 - uniswap_arbitrage - INFO - Pair address for 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 and 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+2024-07-20 06:20:48,232 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:48,232 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:48,271 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:48,271 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:48,824 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:48,825 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:48,825 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3501.93215927194
+2024-07-20 06:20:48,879 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:48,880 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:48,880 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.00028555664545137915
+2024-07-20 06:20:48,880 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:48,880 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:48,978 - uniswap_arbitrage - INFO - Gas price now - 2456801972 wei
+2024-07-20 06:20:48,979 - uniswap_arbitrage - INFO - Gas price now - 2.456801972 gwei
+2024-07-20 06:20:48,979 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:48,979 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:49,474 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:49,474 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:49,474 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3501.93215927194
+2024-07-20 06:20:49,474 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:49,474 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:49,567 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:49,567 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:49,567 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 8.603553834709519e-06
+2024-07-20 06:20:49,710 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:49,710 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:49,720 - uniswap_arbitrage - INFO - Current block id: 20345017
+2024-07-20 06:20:49,863 - uniswap_arbitrage - INFO - Chain id: 1
+2024-07-20 06:20:50,064 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:50,064 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:50,064 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3501.93215927194
+2024-07-20 06:20:50,299 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353529.096257
+2024-07-20 06:20:50,332 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358384.781532
+2024-07-20 06:20:50,332 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0020631507308415
+2024-07-20 06:20:50,632 - uniswap_arbitrage - INFO - Pair address for 0xdAC17F958D2ee523a2206206994597C13D831ec7 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f
+2024-07-20 06:20:50,632 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:50,632 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:50,652 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 17550.517437491944
+2024-07-20 06:20:50,652 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in USD: 3501.93215927194
+2024-07-20 06:20:50,652 - uniswap_arbitrage - INFO - Adjusted reserve 0xdAC17F958D2ee523a2206206994597C13D831ec7 = 61460721.426216
+2024-07-20 06:20:50,652 - uniswap_arbitrage - INFO - Liquidity in USD: 122921442.852432
+2024-07-20 06:20:50,653 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:50,653 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:51,245 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51923776.419926
+2024-07-20 06:20:51,245 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14850.887600303331
+2024-07-20 06:20:51,245 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.000286013241413701
+2024-07-20 06:20:51,538 - uniswap_arbitrage - INFO - Pair address for 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 and 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 0xB4e16d0168e52d35CaCD2c6185b44281Ec28C9Dc
+2024-07-20 06:20:51,538 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:51,538 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:51,665 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358384.781532
+2024-07-20 06:20:51,665 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353529.096257
+2024-07-20 06:20:51,665 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in USD Coin (USDC): 0.9979410970961892
+2024-07-20 06:20:51,665 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:51,665 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:52,138 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14850.887600303331
+2024-07-20 06:20:52,138 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51923776.419926
+2024-07-20 06:20:52,138 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3496.3416206089564
+2024-07-20 06:20:52,180 - uniswap_arbitrage - INFO - Yes click on window_destroy()
+2024-07-20 06:20:52,696 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:52,696 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:52,696 - uniswap_arbitrage - INFO - Price of 1 Tether USD (USDT) in Wrapped Ether (WETH): 0.00028555664545137915
+2024-07-20 06:20:52,697 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:52,697 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:52,730 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:52,730 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:53,284 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 17550.517437491944
+2024-07-20 06:20:53,284 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 61460721.426216
+2024-07-20 06:20:53,284 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in Tether USD (USDT): 3501.93215927194
+2024-07-20 06:20:53,284 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:53,284 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:53,324 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14850.887600303331
+2024-07-20 06:20:53,324 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51923776.419926
+2024-07-20 06:20:53,325 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3496.3416206089564
+2024-07-20 06:20:53,325 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:53,325 - uniswap_arbitrage - INFO - Decimals for Tether USD (USDT): 6
+2024-07-20 06:20:53,869 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14850.887600303331
+2024-07-20 06:20:53,869 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51923776.419926
+2024-07-20 06:20:53,869 - uniswap_arbitrage - INFO - Price of 1 Wrapped Ether (WETH) in USD Coin (USDC): 3496.3416206089564
+2024-07-20 06:20:53,869 - uniswap_arbitrage - INFO - Decimals for USD Coin (USDC): 6
+2024-07-20 06:20:53,869 - uniswap_arbitrage - INFO - Decimals for Wrapped Ether (WETH): 18
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 2353529.096257
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Adjusted reserve Tether USD = 2358384.781532
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Tether USD (USDT): 1.0020631507308415
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Adjusted reserve 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 = 14850.887600303331
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Adjusted reserve 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 = 51923776.419926
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Price of 1 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 in 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48: 3496.3416206089564
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Price of 1 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 in USD: 1.0020631507308415
+2024-07-20 06:20:53,912 - uniswap_arbitrage - INFO - Liquidity in USD: 103954679.41712083
+2024-07-20 06:20:54,459 - uniswap_arbitrage - INFO - Adjusted reserve USD Coin = 51923776.419926
+2024-07-20 06:20:54,459 - uniswap_arbitrage - INFO - Adjusted reserve Wrapped Ether = 14850.887600303331
+2024-07-20 06:20:54,459 - uniswap_arbitrage - INFO - Price of 1 USD Coin (USDC) in Wrapped Ether (WETH): 0.000286013241413701

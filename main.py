@@ -529,11 +529,10 @@ class UniswapConn:
 
         latest_swaps = pair_contract.events.Swap().get_logs(fromBlock=from_block, toBlock='latest')
         if latest_swaps:
-            # Determine which tokens are involved in the swap
+
             token0 = pair_contract.functions.token0().call()
             token1 = pair_contract.functions.token1().call()
 
-            # Get decimals for tokens
             decimals0 = await self.get_decimals(token0)
             decimals1 = await self.get_decimals(token1)
 
@@ -549,31 +548,30 @@ class UniswapConn:
                 logger.info(f"Swap details - Amount0In: {amount0_in}, Amount1In: {amount1_in}")
                 logger.info(f"Swap details - Amount0Out: {amount0_out}, Amount1Out: {amount1_out}")
 
-                # Determine which token is token0 and which is token1
                 if to_checksum_address(token0) == to_checksum_address(token0_address):
 
                     if to_checksum_address(token1) == to_checksum_address(token1_address):
-                        # Token0 was swapped for Token1
+
                         if amount0_in > 0:
                             price = amount1_out / amount0_in
                         else:
                             price = amount1_in / amount0_out
                     else:
-                        # Token1 was swapped for Token0
+
                         if amount1_in > 0:
                             price = amount0_out / amount1_in
                         else:
                             price = amount0_in / amount1_out
                 else:
-                    # Reverse case: token0 and token1 are swapped
+
                     if to_checksum_address(token1) == to_checksum_address(token0_address):
-                        # Token1 was swapped for Token0
+
                         if amount1_in > 0:
                             price = amount0_out / amount1_in
                         else:
                             price = amount0_in / amount1_out
                     else:
-                        # Token0 was swapped for Token1
+
                         if amount0_in > 0:
                             price = amount1_out / amount0_in
                         else:
