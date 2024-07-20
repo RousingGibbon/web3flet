@@ -8,6 +8,7 @@ from flet_app.utils.navigate import navigate
 from flet_app.controls.pool_table import PoolContainer
 from flet_app.controls.arbitage import ArbitrageContainer
 
+
 async def MainView(page : ft.Page):
 
     def run_async_task(coro):
@@ -28,12 +29,14 @@ async def MainView(page : ft.Page):
         navigation_bar = _NavigationBar()
         pool_container = PoolContainer(page)
         arbitrage_container = ArbitrageContainer(page)
-        return settings_container,main_container,app_bar,navigation_bar,pool_container, arbitrage_container
+        return settings_container, main_container, app_bar, navigation_bar, pool_container, arbitrage_container
 
     settings_container, main_container, app_bar, navigation_bar, pool_container, arbitrage_container = await init()
 
-    app_bar.settings_button.on_click = lambda e: run_async_task(coro=navigate(page, navigation_bar, main_container, settings_container, pool_container, arbitrage_container, e=3))
-    navigation_bar.on_change = lambda e: run_async_task(coro=navigate(page, navigation_bar, main_container, settings_container, pool_container, arbitrage_container, e=e))
+    app_bar.settings_button.on_click = lambda e: run_async_task(coro=navigate(page, navigation_bar, main_container,
+                                                                settings_container, pool_container, arbitrage_container, e=3))
+    navigation_bar.on_change = lambda e: run_async_task(coro=navigate(page, navigation_bar, main_container,
+                                                                settings_container, pool_container, arbitrage_container, e=e))
 
     page.add(main_container, settings_container)
     main_view = ft.View(

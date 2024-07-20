@@ -2,6 +2,7 @@ import flet as ft
 import asyncio
 from main import TokenAddresses
 
+
 class Swapper(ft.Container):
     def __init__(self, page):
         super().__init__()
@@ -12,7 +13,7 @@ class Swapper(ft.Container):
         self.page.snack_bar = ft.SnackBar(ft.Text('Choose currency to continue.'))
         self.tokenA = ft.Dropdown(
             width=100,
-            options = [ft.dropdown.Option(key) for key in self.addresses.keys()],
+            options=[ft.dropdown.Option(key) for key in self.addresses.keys()],
             hint_text="Choose currency",
             border_radius=30,
             )
@@ -67,9 +68,8 @@ class Swapper(ft.Container):
             eth_price = await self.uniswap_conn.get_token_price(self.addresses.get("WETH"), self.addresses.get("USDT"))
             gas_price = await self.uniswap_conn.eth_conn.get_gas_price()
             gas_price = self.eth_conn.web3.from_wei(gas_price, 'ether')
-            print(gas_price)
-            print(float(gas_price)*float(eth_price))
-            commission = await self.uniswap_conn.get_token_price(self.addresses.get("WETH"), self.addresses.get("USDT"), amount_in=gas_price)
+            commission = await self.uniswap_conn.get_token_price(self.addresses.get("WETH"), self.addresses.get("USDT"),
+                                                                 amount_in=gas_price)
             current_block = await self.eth_conn.get_current_block()
             chain_id = await self.eth_conn.get_chain_id()
             eth_prices = ft.Text(f'ETH price: {eth_price:.2f} USD')
@@ -80,11 +80,7 @@ class Swapper(ft.Container):
             self.update()
             await asyncio.sleep(30)
 
-
     async def swap_click(self, e):
-        print(self.tokenA.value, self.addresses.get(self.tokenA.value), self.tokenA_amount.value)
-        print(self.tokenB.value, self.addresses.get(self.tokenB.value), self.tokenB_amount.value)
-
         if self.tokenA.value is None or self.tokenB.value is None:
             self.page.snack_bar.open = True
             self.page.update()
@@ -107,9 +103,3 @@ class Swapper(ft.Container):
         price10 = await self.uniswap_conn.get_token_price(token1_address, token0_address)
         self.tokenA_label.value = f'{name0} = {price01:.6f} {name1} '
         self.tokenB_label.value = f'{name1} = {price10:.6f} {name0} '
-
-
-
-
-
-

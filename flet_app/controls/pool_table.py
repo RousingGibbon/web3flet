@@ -9,7 +9,7 @@ class Data(ft.DataTable):
         self.page = page
         self.uniswap_conn = page.session.get('uniswap_conn')
         self.addresses = TokenAddresses()
-        self.columns=[
+        self.columns = [
             ft.DataColumn(ft.Text('Available pools')),
             ft.DataColumn(ft.Text('Contract Address')),
             ft.DataColumn(ft.Text('Price')),
@@ -19,7 +19,8 @@ class Data(ft.DataTable):
 
         self.page.run_thread(self.run_async, self.setup())
 
-    def run_async(self, coroutine):
+    @staticmethod
+    def run_async(coroutine):
         asyncio.run(coroutine)
 
     @staticmethod
@@ -41,12 +42,6 @@ class Data(ft.DataTable):
             return f"{amount / 1_000:.1f}k USD"
         else:
             return f"{amount:.2f} USD"
-
-    # Примеры использования
-    print(format_liquidity(1000))  # Выводит "1.0k USD"
-    print(format_liquidity(1500000))  # Выводит "1.5M USD"
-    print(format_liquidity(5000000000))  # Выводит "5.0B USD"
-    print(format_liquidity(500))  # Выводит "500.00 USD"
 
     async def setup(self):
         for token0, token1 in TokenAddresses.unique_pairs():
@@ -83,7 +78,6 @@ class Data(ft.DataTable):
 class PoolContainer(ft.Container):
     def __init__(self, page):
         super().__init__()
-        self.content = ft.ListView(controls = [Data(page)], auto_scroll=False)
+        self.content = ft.ListView(controls=[Data(page)], auto_scroll=False)
         self.visible = False
         self.expand = True
-

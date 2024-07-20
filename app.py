@@ -6,6 +6,7 @@ import asyncio
 from main import EthConnection
 from main import UniswapConn
 
+
 async def main(page: ft.Page):
     eth_conn = EthConnection()
     uniswap_conn = UniswapConn(eth_conn)
@@ -53,7 +54,7 @@ async def main(page: ft.Page):
             confirm_dialog.open = True
             page.update()
         if event.data == "resized":
-            print("New page size:", page.window.width, page.window.height)
+            logger.info(f"New page size: {page.window.width}, {page.window.height}")
             page.update()
 
     confirm_dialog = ft.AlertDialog(
@@ -80,5 +81,5 @@ async def main(page: ft.Page):
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
     page.update()
 
-
-ft.app(target=main, assets_dir="assets")
+if __name__ == '__main__':
+    ft.app(target=main, assets_dir="assets")

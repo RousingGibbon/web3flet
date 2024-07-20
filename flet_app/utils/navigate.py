@@ -96,7 +96,7 @@ async def navigate(page, navigation_bar, main_container, settings_container, poo
         previous_index = new_index
         is_navigate_active = False
 
-    elif new_index == 3 and previous_index !=3:
+    elif new_index == 3 and previous_index != 3:
         previous_content.offset = ft.transform.Offset(0, 0)
         previous_content.animate_offset = ft.animation.Animation(duration=300,
                                                                  curve=ft.AnimationCurve.EASE_IN_OUT_CUBIC_EMPHASIZED)

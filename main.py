@@ -20,7 +20,6 @@ class TokenAddresses:
         "DAI":  to_checksum_address('0x6B175474E89094C44Da98b954EedeAC495271d0F')
     }
 
-
     @classmethod
     def unique_pairs(cls):
         tokens = list(cls.addresses.keys())
@@ -44,7 +43,6 @@ class TokenAddresses:
             if sorted_triplet not in seen_triplets:
                 seen_triplets.add(sorted_triplet)
                 yield sorted_triplet
-
 
 
 class EthConnection:
@@ -101,6 +99,7 @@ class EthConnection:
         chain_id = self.web3.eth.chain_id
         logger.info(f'Chain id: {chain_id}')
         return chain_id
+
 
 class UniswapConn:
     def __init__(self, eth_conn: EthConnection):
@@ -161,10 +160,10 @@ class UniswapConn:
         self.uniswap_factory: Contract = self.eth_conn.web3.eth.contract(
             address=self.factory_address, abi=self.factory_abi)
 
-        self.abis[self.router_address]=self.router_abi
-        self.abis[self.factory_address]=self.factory_abi
-        self.contracts[self.router_address]=self.uniswap_router
-        self.contracts[self.factory_address]=self.uniswap_factory
+        self.abis[self.router_address] = self.router_abi
+        self.abis[self.factory_address] = self.factory_abi
+        self.contracts[self.router_address] = self.uniswap_router
+        self.contracts[self.factory_address] = self.uniswap_factory
 
     async def get_decimals(self, token_address):
         if self.decimals.get(token_address):
@@ -205,8 +204,6 @@ class UniswapConn:
                             elif data['status'] == '0' and data['message'] == 'No contract ABI found':
                                 raise ValueError(f"No contract ABI found for address {address}")
                             else:
-                                print(data)
-                                print(address)
                                 raise ValueError(f"Etherscan API error: {data['message']}")
                         elif response.status == 502:
                             if attempt < retries - 1:
@@ -283,7 +280,8 @@ class UniswapConn:
             logger.error(f"Error getting pair contract for {pair_address}: {e}")
             return None
 
-    async def get_reserves(self, token0_address: str, token1_address: str, pair_contract: Contract, ) -> Tuple[int | None, int | None]:
+    async def get_reserves(self, token0_address: str, token1_address: str, pair_contract: Contract, )\
+            -> Tuple[int | None, int | None]:
         """
         Retrieves the reserves for a pair-contract in the order of the given token addresses.
 
@@ -341,8 +339,8 @@ class UniswapConn:
 
             name = token_contract.functions.name().call()
             symbol = token_contract.functions.symbol().call()
-            self.symbols[token_contract]=symbol
-            self.names[token_contract]=name
+            self.symbols[token_contract] = symbol
+            self.names[token_contract] = name
 
             return name, symbol
         except Exception as e:
@@ -364,8 +362,7 @@ class UniswapConn:
         if not token0_address or not token1_address:
             raise ValueError("Token addresses must be provided")
 
-
-        pair_address = await self.get_pair_address(token0_address,token1_address)
+        pair_address = await self.get_pair_address(token0_address, token1_address)
         pair_abi = await self.get_contract_abi(pair_address)
         pair_contract = await self.get_pair_contract(pair_address, pair_abi)
 
@@ -442,7 +439,8 @@ class UniswapConn:
                 return None
 
             # Получение резервов
-            reserve_non_usdt_token, reserve_usdt = await self.get_reserves(non_usdt_token_address, usdt_address, pair_contract)
+            reserve_non_usdt_token, reserve_usdt = await self.get_reserves(non_usdt_token_address, usdt_address,
+                                                                           pair_contract)
             if reserve_non_usdt_token is None or reserve_usdt is None:
                 return None
 
@@ -505,75 +503,119 @@ class UniswapConn:
         logger.info(f"Liquidity in USD: {liquidity_usd}")
 
         return liquidity_usd
+
     async def get_last_swap(self, token0_address: str, token1_address: str, pair_contract: Contract) -> float | None:
+        """
+        Retrieve the information about the last swap for the specified token pair.
 
-            latest_block = self.eth_conn.web3.eth.get_block('latest')['number']
-            from_block = latest_block - (24 * 60 * 4)  # приблизительно 1 блок в 15 секунд
+        Args:
+           token0_address (str): The address of the first token in the pair.
+           token1_address (str): The address of the second token in the pair.
+           pair_contract (Contract): The contract of the Uniswap or other decentralized exchange for the token pair.
 
-            latest_swaps = pair_contract.events.Swap().get_logs(fromBlock=from_block, toBlock='latest')
-            if latest_swaps:
-                # Determine which tokens are involved in the swap
-                token0 = pair_contract.functions.token0().call()
-                token1 = pair_contract.functions.token1().call()
+        Returns:
+           float | None: The last swap amount in float if available, otherwise returns None.
 
-                # Get decimals for tokens
-                decimals0 = await self.get_decimals(token0)
-                decimals1 = await self.get_decimals(token1)
+        Notes:
+           This function interacts with the pair contract to fetch details about the last swap.
+           This may include the amount of tokens swapped in the last transaction and other relevant parameters
+            depending on the contract.
+           Ensure that the pair contract is correctly configured and supports the necessary methods for fetching swap 
+           information.
+        """
 
-                logger.info(f"Token0: {token0}, Token1: {token1}")
-                logger.info(f"Decimals for Token0: {decimals0}, Decimals for Token1: {decimals1}")
+        latest_block = self.eth_conn.web3.eth.get_block('latest')['number']
+        from_block = latest_block - (24 * 60 * 4)  # приблизительно 1 блок в 15 секунд
 
-                for swap in reversed(latest_swaps):
-                    amount0_in = swap['args']['amount0In'] / (10 ** decimals0)
-                    amount1_in = swap['args']['amount1In'] / (10 ** decimals1)
-                    amount0_out = swap['args']['amount0Out'] / (10 ** decimals0)
-                    amount1_out = swap['args']['amount1Out'] / (10 ** decimals1)
+        latest_swaps = pair_contract.events.Swap().get_logs(fromBlock=from_block, toBlock='latest')
+        if latest_swaps:
+            # Determine which tokens are involved in the swap
+            token0 = pair_contract.functions.token0().call()
+            token1 = pair_contract.functions.token1().call()
 
-                    logger.info(f"Swap details - Amount0In: {amount0_in}, Amount1In: {amount1_in}")
-                    logger.info(f"Swap details - Amount0Out: {amount0_out}, Amount1Out: {amount1_out}")
+            # Get decimals for tokens
+            decimals0 = await self.get_decimals(token0)
+            decimals1 = await self.get_decimals(token1)
 
-                    # Determine which token is token0 and which is token1
-                    if to_checksum_address(token0) == to_checksum_address(token0_address):
+            logger.info(f"Token0: {token0}, Token1: {token1}")
+            logger.info(f"Decimals for Token0: {decimals0}, Decimals for Token1: {decimals1}")
 
-                        if to_checksum_address(token1) == to_checksum_address(token1_address):
-                            # Token0 was swapped for Token1
-                            if amount0_in > 0:
-                                price = amount1_out / amount0_in
-                            else:
-                                price = amount1_in / amount0_out
+            for swap in reversed(latest_swaps):
+                amount0_in = swap['args']['amount0In'] / (10 ** decimals0)
+                amount1_in = swap['args']['amount1In'] / (10 ** decimals1)
+                amount0_out = swap['args']['amount0Out'] / (10 ** decimals0)
+                amount1_out = swap['args']['amount1Out'] / (10 ** decimals1)
+
+                logger.info(f"Swap details - Amount0In: {amount0_in}, Amount1In: {amount1_in}")
+                logger.info(f"Swap details - Amount0Out: {amount0_out}, Amount1Out: {amount1_out}")
+
+                # Determine which token is token0 and which is token1
+                if to_checksum_address(token0) == to_checksum_address(token0_address):
+
+                    if to_checksum_address(token1) == to_checksum_address(token1_address):
+                        # Token0 was swapped for Token1
+                        if amount0_in > 0:
+                            price = amount1_out / amount0_in
                         else:
-                            # Token1 was swapped for Token0
-                            if amount1_in > 0:
-                                price = amount0_out / amount1_in
-                            else:
-                                price = amount0_in / amount1_out
+                            price = amount1_in / amount0_out
                     else:
-                        # Reverse case: token0 and token1 are swapped
-                        if to_checksum_address(token1) == to_checksum_address(token0_address):
-                            # Token1 was swapped for Token0
-                            if amount1_in > 0:
-                                price = amount0_out / amount1_in
-                            else:
-                                price = amount0_in / amount1_out
+                        # Token1 was swapped for Token0
+                        if amount1_in > 0:
+                            price = amount0_out / amount1_in
                         else:
-                            # Token0 was swapped for Token1
-                            if amount0_in > 0:
-                                price = amount1_out / amount0_in
-                            else:
-                                price = amount1_in / amount0_out
+                            price = amount0_in / amount1_out
+                else:
+                    # Reverse case: token0 and token1 are swapped
+                    if to_checksum_address(token1) == to_checksum_address(token0_address):
+                        # Token1 was swapped for Token0
+                        if amount1_in > 0:
+                            price = amount0_out / amount1_in
+                        else:
+                            price = amount0_in / amount1_out
+                    else:
+                        # Token0 was swapped for Token1
+                        if amount0_in > 0:
+                            price = amount1_out / amount0_in
+                        else:
+                            price = amount1_in / amount0_out
 
-                    logger.info(f"Calculated price: {price}")
+                logger.info(f"Calculated price: {price}")
 
-                    if price is not None:
-                        return price
+                if price is not None:
+                    return price
 
-    async def get_arbitrage_abillity(self, token0_address, token1_address, token2_address):
+    async def get_arbitrage_ability(self, token0_address: str, token1_address: str, token2_address: str)\
+            -> list[tuple[str, float]]:
+        """
+        Determine the arbitrage opportunities among three tokens based on their exchange rates and swap prices.
 
+        Args:
+            token0_address (str): The address of the first token in the arbitrage calculations.
+            token1_address (str): The address of the second token in the arbitrage calculations.
+            token2_address (str): The address of the third token in the arbitrage calculations.
+
+        Returns:
+            list[tuple[str, float]]: A list of tuples, where each tuple contains a string describing the arbitrage route
+                and the corresponding profit percentage.
+
+        Notes:
+            This function calculates the potential profit from arbitrage opportunities involving three tokens.
+
+            1. **Fetch Token Details**: Retrieves the symbols for the three tokens.
+            2. **Retrieve Pair Addresses and Contracts**: Fetches the pair addresses and ABI contracts for 
+                all possible token pairs.
+            3. **Fetch Prices**: Obtains the current token prices in terms of each other.
+            4. **Fetch Last Swap Prices**: Retrieves the most recent swap prices for the token pairs.
+            5. **Calculate Arbitrage Opportunities**: Computes the potential profit for each of the six possible
+                arbitrage routes using the initial amount in USD and swap prices.
+            6. **Output Results**: Provides a list of arbitrage routes and their corresponding profit percentages.
+
+            Ensure that the token addresses provided are valid and the contracts are correctly configured for the
+             calculations.
+        """
         token0_name, token0_symbol = await self.get_symbols(token0_address)
         token1_name, token1_symbol = await self.get_symbols(token1_address)
         token2_name, token2_symbol = await self.get_symbols(token2_address)
-
-        print(token0_name, token1_name, token2_name)
 
         pair_address0_1 = await self.get_pair_address(token0_address, token1_address)
         pair_address1_2 = await self.get_pair_address(token1_address, token2_address)
@@ -649,6 +691,7 @@ class UniswapConn:
             print(f"{route}, Profit: {profit}")
         return result
 
+
 async def main():
     eth_conn = EthConnection()
     await eth_conn.check_connection()
@@ -668,9 +711,11 @@ async def main():
     pair_address = await uniswap_conn.get_pair_address(token0_address, token1_address)
     pair_abi = await uniswap_conn.get_contract_abi(pair_address)
     pair_contract = await uniswap_conn.get_pair_contract(pair_address, pair_abi)
+
     print(await uniswap_conn.get_token_price(token0_contract.address, token1_contract.address, 1))
-    await uniswap_conn.get_arbitrage_abillity(token2_address, token1_address, token0_address)
-    x = await uniswap_conn.get_liquidity_in_usd(eth_conn.addresses.get("USDT"),eth_conn.addresses.get("WBTC"))
+    await uniswap_conn.get_arbitrage_ability(token2_address, token1_address, token0_address)
+    x = await uniswap_conn.get_liquidity_in_usd(eth_conn.addresses.get("USDT"), eth_conn.addresses.get("WBTC"))
     print(x)
 if __name__ == "__main__":
     asyncio.run(main())
+    
