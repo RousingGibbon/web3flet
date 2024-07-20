@@ -102,7 +102,6 @@ class EthConnection:
         logger.info(f'Chain id: {chain_id}')
         return chain_id
 
-
 class UniswapConn:
     def __init__(self, eth_conn: EthConnection):
         self.eth_conn = eth_conn
@@ -662,19 +661,15 @@ async def main():
 
     token0_address = uniswap_conn.eth_conn.addresses.get("WBTC")
     token1_address = uniswap_conn.eth_conn.addresses.get("WETH")
-    # token2_address = to_checksum_address('0xdAC17F958D2ee523a2206206994597C13D831ec7')
-    #
-    # token0_contract = await uniswap_conn.get_contract(token0_address)
-    # token1_contract = await uniswap_conn.get_contract(token1_address)
-    #
-    #
-    # pair_address = await uniswap_conn.get_pair_address(token0_address, token1_address)
-    # pair_abi = await uniswap_conn.get_contract_abi(pair_address)
-    # pair_contract = await uniswap_conn.get_pair_contract(pair_address, pair_abi)
-    #
-    # print(await uniswap_conn.get_token_price(token0_contract.address, token1_contract.address, 1))
-    #
-    # await uniswap_conn.get_arbitrage_abillity(token2_address, token1_address, token0_address)
+    token2_address = to_checksum_address('0xdAC17F958D2ee523a2206206994597C13D831ec7')
+
+    token0_contract = await uniswap_conn.get_contract(token0_address)
+    token1_contract = await uniswap_conn.get_contract(token1_address)
+    pair_address = await uniswap_conn.get_pair_address(token0_address, token1_address)
+    pair_abi = await uniswap_conn.get_contract_abi(pair_address)
+    pair_contract = await uniswap_conn.get_pair_contract(pair_address, pair_abi)
+    print(await uniswap_conn.get_token_price(token0_contract.address, token1_contract.address, 1))
+    await uniswap_conn.get_arbitrage_abillity(token2_address, token1_address, token0_address)
     x = await uniswap_conn.get_liquidity_in_usd(eth_conn.addresses.get("USDT"),eth_conn.addresses.get("WBTC"))
     print(x)
 if __name__ == "__main__":
